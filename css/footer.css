@@ -1,0 +1,258 @@
+.footer{
+    width: 100%;
+    padding: 115px 0px 130px;
+    background-color: #040E27;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f1travelo{
+    width: 350px;
+    height: 270px;
+    margin: 0px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.f1travelo img{
+    width: 135px;
+    margin: 0px 0px 40px;
+}
+.f1travelo p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0px;
+    color: #AAB1B7;
+}
+.f1travelo a{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0px;
+    color: #AAB1B7;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    color: #ff4a52;
+
+}
+.f1travelo ul{
+    padding: 0px;
+    margin: 50px 0px 0px;
+}
+.f1travelo i{
+    width: 35px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.f1company{
+    width: 160px;
+    height: 270px;
+    margin: 0px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.f1company h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px 0px 40px;
+    color: #fff;
+}
+.f1company ul{
+    padding: 0px;
+    margin: 0px;
+}
+.f1company li{
+    list-style: none;
+    width: 100%;
+    height: 36px;
+}
+.f1company a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #AAB1B7;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    color: #ff4a52;
+}
+.f1pdestination{
+    width: 255px;
+    height: 270px;
+    margin: 0px 15px;
+}
+.f1pdestination h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px 0px 40px;
+    color: #fff;
+}
+.f1pdestination ul{
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+.f1pdestination li{
+    list-style: none;
+    width: 125px;
+    height: 36px;
+}
+.f1pdestination a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #AAB1B7;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    color: #ff4a52;
+}
+.f1instagram{
+    width: 265px;
+    height: 270px;
+    margin: 0px 10px 0px 10px;
+}
+.f1instagram h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px 0px 40px 5px;
+    color: #fff;
+}
+.f1instagram img{
+    width: 75px;
+    height: 75px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+    .f1travelo{
+        width: 290px;
+    }
+    .f1company{
+        width: 130px;
+    }
+    .f1pdestination{
+        width: 210px;
+    }
+    .f1pdestination li{
+        width: 100px;
+    }
+    .f1instagram{
+        width: 220px;
+    }
+    .f1instagram img{
+        width: 60px;
+        height: 60px;
+    }
+}
+@media screen and (max-width: 992px){
+    .f1{
+        width: 720px;
+        flex-wrap: wrap;
+    }
+    .f1travelo{
+        width: 330px;
+        margin-bottom: 30px;
+    }
+    .f1company{
+        width: 330px;
+        margin-bottom: 30px;
+    }
+    .f1pdestination{
+        width: 330px;
+    }
+    .f1instagram{
+        width: 330px;
+        margin: 0px 15px;
+    }
+    .f1instagram img{
+        width: 95px;
+        height: 95px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .footer{
+        padding: 60px 0px 30px;
+    }
+    .f1{
+        width: 540px;
+    }
+    .f1travelo{
+        width: 510px;
+        height: auto;
+    }
+    .f1travelo img{
+        margin: 0px 0px 20px;
+    }
+    .f1travelo ul{
+        padding: 0px;
+        margin: 30px 0px 0px;
+    }
+    .f1company{
+        width: 510px;
+        height: auto;
+    }
+    .f1company h3{
+        margin: 0px 0px 20px;
+    }
+    .f1pdestination{
+        width: 510px;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .f1pdestination h3{
+        margin: 0px 0px 20px;
+    }
+    .f1instagram{
+        width: 510px;
+        height: auto;
+    }
+    .f1instagram h3{
+        margin: 0px 0px 20px;
+    }
+    .f1instagram img{
+        width: 157px;
+        height: 157px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .f1{
+        width: 90%;
+    }
+    .f1travelo{
+        width: 100%;
+        margin: 0px 0px 30px !important;
+    }
+    .f1company{
+        width: 100%;
+        margin: 0px 0px 30px !important;
+    }
+    .f1pdestination{
+        width: 100%;
+        margin: 0px 0px 30px !important;
+    }
+    .f1instagram{
+        width: 100%;
+        margin: 0px !important;
+        text-align: center;
+    }
+    .f1instagram h3{
+        text-align: left;
+    }
+    .f1instagram img{
+        width: 25%;
+        height: 25%;
+    }
+}
+
+

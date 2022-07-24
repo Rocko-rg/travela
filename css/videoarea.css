@@ -1,0 +1,63 @@
+.videoarea{
+    width: 100%;
+    height: 610px;
+    background-image: linear-gradient(rgba(62, 66, 100, 0.274), rgba(32, 34, 51, 0.274)), url(https://preview.colorlib.com/theme/travelo/img/banner/video.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.videoarea h3{
+    font-size: 80px;
+    color: white;
+    font-weight: 400;
+    margin: 0px 0px 55px;
+    text-align: center;
+    font-family:"Nothing You Could Do" 
+}
+.play1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background-color: #1ec6b6;
+}
+.play1 i{
+    color: white;
+    font-size: 18px;
+    margin-left: 5px;
+}
+.play2{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background-color: #1ec6b6;
+    animation: move 2s infinite;
+    position: absolute;
+}
+@keyframes move{
+    0%{
+        width: 90px;
+        height: 90px;
+        opacity: 1;
+    }
+    100%{
+        width: 170px;
+        height: 170px;
+        opacity: 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .videoarea{
+        height: 430px;
+    }
+    .videoarea h3{
+        font-size: 50px;
+    }
+}
+

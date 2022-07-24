@@ -1,0 +1,279 @@
+.popularplaces{
+    width: 100%;
+    padding: 140px 0px 150px;
+    background-color: #f7fafd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.popularplaces h3{
+    font-size: 38px;
+    margin: 0px 0px 15px;
+    font-weight: lighter;
+    color: #040e27;
+    text-align: center;
+}
+.ppp{
+    width: 500px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0px 0px 45px;
+    color: #7a838b;
+    text-align: center;
+}
+.pp2{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+}
+.california1, .california2, .corolamegna, .london, .miamibeach, .saintmartineiceland{
+    width: 350px;
+    height: 335px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 7px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+.california1:hover, .california2:hover, .corolamegna:hover, .london:hover, .miamibeach:hover, .saintmartineiceland:hover{
+    box-shadow: rgba(101, 106, 110, 0.2) 0px 8px 15px; 
+}
+.california1{
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/place/x1.png.pagespeed.ic.PhjDw51Df0.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.corolamegna{
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/place/x2.png.pagespeed.ic.oDyLMXogRU.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.london{
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/place/x3.png.pagespeed.ic.O3ye6I5nwK.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.miamibeach{
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/place/x4.png.pagespeed.ic.06-m2kwAgz.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.california2{
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/place/x5.png.pagespeed.ic.48MOUf4-ss.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.saintmartineiceland{
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/place/x6.png.pagespeed.ic.fa-tLZWwUw.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.div500{
+    margin-bottom: 170px;
+}
+.button500{
+    width: 75px;
+    height: 35px;
+    color: white;
+    font-size: 16px;
+    background-color:#1ec6b6;
+    border-radius: 18px;
+    border: none;
+    transition: 0.3s;
+}
+.california1:hover button, .california2:hover button, .corolamegna:hover button, .london:hover button, .miamibeach:hover button, .saintmartineiceland:hover button{
+    background-color: #ff4a52;
+}
+.pp2 h3{
+    font-size: 22px;
+    font-weight: lighter;
+    text-align: left;
+    margin: 0px 0px 7px;
+    color: #040e27;
+    transition: 0.3s;
+}
+.california1:hover h3, .california2:hover h3, .corolamegna:hover h3, .london:hover h3, .miamibeach:hover h3, .saintmartineiceland:hover h3{
+    color: #ff4a52;
+}
+.pp2 p{
+    font-size: 14px;
+    font-weight: lighter;
+    margin: 2px 0px 15px;
+    color: #7a838b;
+}
+.pp22{
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.review{
+    width: 136px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.review i{
+    font-size: 10px;
+    color: rgb(235, 163, 31);
+}
+.review a{
+    font-size: 14px;
+    margin-left: 5px;
+    color: #7a838b;
+    text-decoration: none;
+}
+.clock{
+    width: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.clock i{
+    font-size: 11px;
+    margin-top: 3.5px;
+    color: #7a838b;
+}
+.clock a{
+    font-size: 14px;
+    color: #7a838b;
+    text-decoration: none;
+}
+.mpbutton{
+    width: 170px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 55px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff4a52;
+    color: white;
+    transition: 0.3s;
+}
+.mpbutton:hover{
+    background-color: #1ec6b6;
+}
+@media screen and (max-width: 1200px) {
+    .popularplaces h3{
+        font-size: 35px;
+    }
+    .ppp{
+        width: 430px;
+    }
+    .pp2{
+        width: 970px;
+    }
+    .california1, .california2, .corolamegna, .london, .miamibeach, .saintmartineiceland{
+        width: 290px;
+        height: 300px;
+    }
+    .pp2 h3{
+        font-size: 22px;
+    }
+    .div500{
+        margin-bottom: 135px;
+    } 
+}
+@media screen and (max-width: 992px) {
+    .pp1{
+        width: 690px;
+    }
+    .popularplaces h3{
+        font-size: 38px;
+    }
+    .ppp{
+        width: 690px;
+        margin: 0px 0px 30px;
+    }
+    .pp2{
+        width: 720px;
+    }
+    .california1, .california2, .corolamegna, .london, .miamibeach, .saintmartineiceland{
+        width: 330px;
+        height: 320px;
+    }
+    .pp2 h3{
+        font-size: 22px;
+    }
+    .div500{
+        margin-bottom: 155px;
+    } 
+}
+@media screen and (max-width: 767px) {
+    .popularplaces{
+        padding: 60px 0px;
+    }
+    .pp1{
+        width: 510px;
+    }
+    .popularplaces h3{
+        font-size: 30px;
+    }
+    .ppp{
+        width: 510px;
+    }
+    .pp2{
+        width: 540px;
+    }
+    .california1, .california2, .corolamegna, .london, .miamibeach, .saintmartineiceland{
+        width: 510px;
+        height: 420px;
+    }
+    .pp2 h3{
+        font-size: 22px;
+    }
+    .div500{
+        margin-bottom: 250px;
+    } 
+}
+@media screen and (max-width: 575px) {
+    .pp1{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .ppp{
+        width: 90%;
+        margin: auto  
+    }
+    .pp2 {
+        width: 90%;
+    }
+    .pp2 div{
+        width: 100%;
+        background-size: 100%;
+        margin: 15px 0px;
+    }
+    .pp22{
+        width: 100%;
+        margin: 0px 0px 10px !important;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .review{
+        width: 136px !important;
+        height: 15px;
+        margin: 5px 0px !important;
+    }
+    .clock{
+        width: 65px !important;
+        height: 15px;
+        margin: 5px 0px !important;
+    }
+    .button500{
+        margin: auto;
+    }
+}

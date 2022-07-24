@@ -1,0 +1,99 @@
+.sliderarea{
+    width: 100%;
+    height: 650px;
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/banner/xbanner2.png.pagespeed.ic.XXlHdbyWF8.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+}
+.s1{
+    width: 900px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.s1 h3{
+    color: white;
+    font-size: 120px;
+    margin: 0px;
+    margin-top: -50px;
+    font-weight: 400;
+    font-family:"Nothing You Could Do"
+    
+}
+.s1 p{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: -15px 0px 50px;
+    font-weight: lighter;
+}
+.s1 button{
+    width: 180px;
+    height: 60px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #1ec6b6;
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s;
+}
+.s1 button:hover{
+    background-color: #ff4a52;
+}
+@media screen and (max-width: 1200px){
+    .s1 h3{
+        font-size: 100px;
+        margin-top: -40px;
+    }
+    .s1 p{
+        margin: -5px 0px 50px;
+    }
+}
+@media screen and (max-width: 992px){
+    .sliderarea{
+        height: 600px;
+    }
+    .s1{
+        width: 720px;
+    }
+    .s1 h3{
+        font-size: 94px;
+    }
+}
+@media screen and (max-width: 767px){
+    .sliderarea{
+        height: 300px;
+        background-size: auto 100%;
+        background-position: top;
+    }
+    .s1{
+        width: 510px;
+    }
+    .s1 h3{
+        font-size: 50px;
+        margin: 0px 0px -15px ;
+    }
+    .s1 p{
+        height: 27px;
+        margin: 20px 0px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .s1{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .s1 p{
+        text-align: center;
+        padding: 0px 10px;
+    }
+       
+}

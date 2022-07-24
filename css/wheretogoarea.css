@@ -1,0 +1,163 @@
+.wheretogoarea{
+    width: 100%;
+    height: 150px;
+    background-color: #040e27;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.w{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.w1{
+    width: 285px;
+    padding: 0px 15px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.w1 h3{
+    font-size: 24px;
+    margin: 0px;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    
+}
+.w2{
+    width: 855px;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.w22{
+    width: 220px;
+    height: 50px;
+    margin: 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.w2 input, select{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    padding: 0px;
+    border-radius: 5px;
+    border: 1px solid #828a958e;
+    background: none;
+    box-sizing: border-box;
+    color: white;
+    padding-left: 15px;
+}
+.w2 input:focus{
+    outline: none;
+}
+input::placeholder{
+    color: #828a95;
+}
+.w2 select{
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+    border-radius: 5px;
+    color: #828a95;
+}
+.w2 button{
+    width: 135px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 5px;
+    padding: 0px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff4a52;
+    color: white;
+    transition: 0.3s;
+}
+.w2 button:hover{
+    background-color: #1ec6b6;
+}
+@media screen and (max-width: 1200px) {
+    .w1{
+        width: 240px;
+    }
+    .w1 h3{
+        font-size: 18px;
+    }
+    .w2{
+        width: 720px;
+    }
+    .w22{
+        width: 170px;
+        margin: 0px 8px;
+    }
+    .w2 button{
+        width: 130px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .wheretogoarea{
+        height: 180px;
+    }
+    .w{
+        flex-direction: column;
+    }
+    .w1{
+        width: 720px;
+        justify-content: flex-start;
+    }
+    .w1 h3{
+        font-size: 24px;  
+    }
+    .w2{
+        width: 720px;
+    }
+    .w22{
+        width: 185px;
+        margin: 0px 1px;
+    }
+    .w2 button{
+        margin-left: 2px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .wheretogoarea{
+        height: 390px;
+    }
+    .w{
+        width: 510px;
+    }
+    .w1{
+        width: 510px;
+        margin: 0px 10px 15px 10px;
+        padding: 0px;
+    }
+    .w2{
+        width: 510px;
+        margin: 0px 10px;
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+    .w22{
+        width: 100%;
+        height: 50px;
+        margin: 0px 0px 15px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .w{
+        width: 90%;
+    }
+    .w1{
+        width: 100%;
+    }
+    .w2{
+        width: 100%;
+    }
+}
